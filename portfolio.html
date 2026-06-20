@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aakash Tiwari | Full Stack Developer</title>
+    <meta name="description"
+        content="Portfolio for Aakash Tiwari, Full Stack Developer at NIT Patna showcasing projects, experience, skills, and achievements." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="container nav">
+            <a class="brand" href="https://aakashtiwari.me">
+                <span class="brand-mark">AT</span>
+                <span>Aakash Tiwari</span>
+            </a>
+            <nav class="menu" aria-label="Primary">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <div class="eyebrow" id="eyebrow">Full Stack Developer | NIT Patna</div>
+                    <h1>Building production-ready web apps with clean UI and strong backend logic.</h1>
+                    <p class="lead">
+                        I’m Aakash Tiwari, an Integrated B.Tech + M.Tech CSE student at NIT Patna with hands-on
+                        experience across full stack web development,
+                        production UI work, and competitive programming.
+                    </p>
+                    <div class="actions">
+                        <a class="button primary" href="#projects">View Projects</a>
+                        <a class="button secondary" href="#contact">Get in Touch</a>
+                    </div>
+                    <div class="metrics">
+                        <div class="metric">
+                            <strong>75+</strong>
+                            Commits as a top contributor to the official NIT Patna website repository.
+                        </div>
+                        <div class="metric">
+                            <strong>2050+</strong>
+                            DSA problems solved across coding platforms.
+                        </div>
+                        <div class="metric">
+                            <strong>8.92</strong>
+                            CGPA (6th Sem) in Integrated B.Tech and M.Tech CSE.
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="hero-card">
+                    <div class="profile">
+                        <div class="portrait" aria-label="Profile preview"></div>
+                        <div class="card-copy">
+                            <strong style="color: var(--text); font-size: 1.15rem;">Currently focused on</strong>
+                            <span>full stack product development, scalable UI systems, authentication-heavy workflows,
+                                and improving engineering depth through real-world projects.</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-head">
+                    <h2>About</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="panel">
+                        <p class="lead" style="margin-top: 0;">
+                            I care about systems that are reliable, easy to navigate, and maintainable at scale.
+                            My work spans frontend implementation, backend integration, authentication flows, and
+                            building features that ship in production.
+                        </p>
+                        <ul class="about-list">
+                            <li><span>01</span>Full stack developer at the official NIT Patna website with production
+                                contributions.</li>
+                            <li><span>02</span>NPTEL internship experience through IIT Ropar with a focus on full stack
+                                web development.</li>
+                            <li><span>03</span>Strong problem-solving background with a consistent track record in DSA,
+                                CP, and system building.</li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <h3 style="font-size: 2rem; margin-bottom: 8px;">Core Skills</h3>
+                        <ul class="skill-list">
+                            <li><span>•</span>C, C++, Python, JavaScript, TypeScript</li>
+                            <li><span>•</span>React.js, Next.js, Express.js, GSAP, Mongoose</li>
+                            <li><span>•</span>Git, GitHub, Postman, VS Code, LaTeX, Docker</li>
+                            <li><span>•</span>MongoDB, MySQL, Redis</li>
+                            <li><span>•</span>REST APIs, JWT auth, caching, CI/CD, load balancing</li>
+                        </ul>
+                        <div class="tag-cloud">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Tailwind</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Projects</h2>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="index">01 / Backend + Architecture</div>
+                        <h3 style="font-size: 1.9rem;">Banking System</h3>
+                        <p>
+                            Double-entry bookkeeping with immutable ledger, MongoDB ACID transactions, idempotency keys,
+                            13+ secured RESTful endpoints with JWT auth and token blacklisting.
+                        </p>
+                        <div class="project-meta">
+                            <span class="pill">Node.js</span>
+                            <span class="pill">MongoDB</span>
+                            <span class="pill">Docker</span>
+                        </div>
+                        <div class="actions" style="margin-top: 14px;">
+                            <a class="button secondary" href="https://github.com/AakashTiwari789/Banking-System"
+                                target="_blank" rel="noreferrer">GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="index">02 / Full Stack Platform</div>
+                        <h3 style="font-size: 1.9rem;">StackTrace</h3>
+                        <p>
+                            Async judge pipeline with BullMQ, self-hosted Judge0, Socket.IO real-time verdicts, JWT auth
+                            with token rotation, Redis per-device sessions, deployed on AWS EC2.
+                        </p>
+                        <div class="project-meta">
+                            <span class="pill">Next.js</span>
+                            <span class="pill">Redis</span>
+                            <span class="pill">AWS EC2</span>
+                        </div>
+                        <div class="actions" style="margin-top: 14px;">
+                            <a class="button secondary" href="https://github.com/AakashTiwari789/StackTrace"
+                                target="_blank" rel="noreferrer">GitHub</a>
+                            <a class="button secondary" href="https://stacktrace.aakashtiwari.me" target="_blank"
+                                rel="noreferrer">Live Demo</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Experience</h2>
+                </div>
+                <div class="panel experience">
+                    <div class="timeline-item">
+                        <time>Jan 2026 - Mar 2026</time>
+                        <div>
+                            <strong>NPTEL Internship - IIT Ropar</strong>
+                            <p>Full Stack Web Development Intern via NPTEL. Selected through the Joy of Computing with
+                                Python course and contributed to the vi-notes project with a feature implementation PR.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <time>Jun 2025 - Sep 2025</time>
+                        <div>
+                            <strong>Medyatra</strong>
+                            <p>Frontend Tech Intern, later promoted to the founding tech team with equity role. Built
+                                responsive UI for an AI-driven global medical travel platform and worked on dashboard,
+                                booking, onboarding, and admin workflows.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <time>Dec 2024 - Present</time>
+                        <div>
+                            <strong>Official NIT Patna Website</strong>
+                            <p>Full Stack Developer and top 3 contributor in the official repository with 75+ commits,
+                                actively maintaining production webpages and reusable UI components.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Education</h2>
+                </div>
+                <div class="panel">
+                    <div class="timeline-item" style="border-top: 0; padding-top: 0;">
+                        <time>2023 - 2028</time>
+                        <div>
+                            <strong>National Institute of Technology, Patna</strong>
+                            <p>Integrated B.Tech and M.Tech in Computer Science and Engineering. Current CGPA: 8.92 (6th
+                                Sem).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Achievements</h2>
+                </div>
+                <div class="panel">
+                    <ul class="about-list" style="margin-top: 0;">
+                        <li><span>•</span>Grand Finalist - Smart India Hackathon (SIH) 2025.</li>
+                        <li><span>•</span>NPTEL: Joy of Computing with Python - 100/100.</li>
+                        <li><span>•</span>NPTEL: Human Computer Interaction - 99/100.</li>
+                        <li><span>•</span>ReImagine Hackathon 2024 - Qualified Round 1 as Team Leader.</li>
+                        <li><span>•</span>Solved 2050+ DSA problems; rated 1812 on LeetCode, 1238 on Codeforces, and
+                            1650 on CodeChef.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="responsibility">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Positions of Responsibility</h2>
+                </div>
+                <div class="panel experience">
+                    <div class="timeline-item">
+                        <time>Feb 2026 - Present</time>
+                        <div>
+                            <strong>President, Expresso The Literary and Art Club, NIT Patna</strong>
+                            <p>Leading club activities, events, and coordination for the literary and art community at
+                                NIT Patna.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <time>Aug 2025 - Jan 2026</time>
+                        <div>
+                            <strong>Joint Secretary, Expresso The Literary and Art Club, NIT Patna</strong>
+                            <p>Supported planning, communication, and event execution while helping manage club
+                                operations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Contact</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h3 style="font-size: 2rem; margin-bottom: 12px;">Let’s build something useful.</h3>
+                        <p>
+                            Open to internships, product work, and full stack engineering opportunities.
+                        </p>
+                        <div class="contact-links">
+                            <a href="mailto:aakashtiwari1911@gmail.com">aakashtiwari1911@gmail.com</a>
+                            <a href="https://github.com/AakashTiwari789" target="_blank" rel="noreferrer">GitHub:
+                                AakashTiwari789</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <span>Aakash Tiwari portfolio</span>
+                <span>Single-file HTML template</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
